@@ -1,4 +1,5 @@
 ---
+title: Wu's Second Brain
 excerpt: "你好，这里是 Wu's Second Brain"
 ---
 
