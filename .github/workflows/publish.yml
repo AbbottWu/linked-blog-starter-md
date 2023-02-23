@@ -25,7 +25,7 @@ jobs:
     - name: Move blog dir to currDir
       run: |
         rm -rf temp_blog/common_md && mkdir temp_blog/common_md
-        cp -r ./temp_md/${{ env.PUBLISH_DIR }}./* temp_blog/common_md/
+        cp -r ./temp_md/${{ env.PUBLISH_DIR }}/* temp_blog/common_md/
         cp -r temp_blog/. .
         rm -rf temp_blog/common_md && mkdir temp_blog/common_md
         rm -rf temp_blog
